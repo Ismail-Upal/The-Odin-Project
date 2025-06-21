@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+nav{
+    display: flex;
+}
+nav a {
+    margin-left: 20px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+/* ---------------------------------------------------- */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #1f2937;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-text button {
+    background-color: #3882f6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-image {
+    background-color: #6d747d;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ---------------------------------------------- */
+.info {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    color: #1f2937;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card-image {
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.card p {
+    color: #1f2937;
+}
+/* ---------------------------------------------- */
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote cite {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    font-size: 24px;
+}
+/* ---------------------------------------------- */
+.action {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.action-box {
+    background-color: #3882f6;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-box h3 {
+    color: #fff;
+    margin: 0;
+}
+
+.action-box p {
+    color: #fff;
+    margin: 5px 0;
+}
+
+.action-box button {
+    background-color: #3882f6;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* ---------------------------------------------- */
+
+footer {
+    text-align: center;
+    padding: 36px;
+    color: #E5E7EB;
+    background-color: #1f2937;
+    font-family: #1f2937;
+} 
